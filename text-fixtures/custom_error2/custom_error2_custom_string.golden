@@ -1,0 +1,20 @@
+// Automatically-generated file. Do not edit
+package custom_error2
+
+//BroadcastLangErrorQueryBroadcastLangRepoFindBadRequest
+type HTTPError4001200 struct {
+	ApiVersion string `json:"apiVersion" example:"1.1"`
+	Error      struct {
+		Code    int    `json:"code" example:"4001200"`
+		Message string `json:"message" example:""`
+	} `json:"error"`
+}
+
+//BroadcastLangErrorQueryBroadcastLangRepoFindServerInternalError
+type HTTPError5001200 struct {
+	ApiVersion string `json:"apiVersion" example:"1.1"`
+	Error      struct {
+		Code    int    `json:"code" example:"5001200"`
+		Message string `json:"message" example:"custom error message"`
+	} `json:"error"`
+}

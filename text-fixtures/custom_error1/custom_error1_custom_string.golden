@@ -1,0 +1,56 @@
+// Automatically-generated file. Do not edit
+package custom_error1
+
+//BroadcastErrorQueryBroadcastRepoFindBadRequest
+type HTTPError4000500 struct {
+	ApiVersion string `json:"apiVersion" example:"1.0"`
+	Error      struct {
+		Code    int    `json:"code" example:"4000500"`
+		Message string `json:"message" example:""`
+	} `json:"error"`
+}
+
+//BroadcastErrorCreateBroadcastRepoCreateBadRequest
+type HTTPError4000501 struct {
+	ApiVersion string `json:"apiVersion" example:"1.0"`
+	Error      struct {
+		Code    int    `json:"code" example:"4000501"`
+		Message string `json:"message" example:""`
+	} `json:"error"`
+}
+
+//BroadcastErrorDeleteBroadcastRepoDeleteBadRequest
+type HTTPError4000502 struct {
+	ApiVersion string `json:"apiVersion" example:"1.0"`
+	Error      struct {
+		Code    int    `json:"code" example:"4000502"`
+		Message string `json:"message" example:""`
+	} `json:"error"`
+}
+
+//BroadcastErrorQueryBroadcastRepoFindServerInternalError
+type HTTPError5000500 struct {
+	ApiVersion string `json:"apiVersion" example:"1.0"`
+	Error      struct {
+		Code    int    `json:"code" example:"5000500"`
+		Message string `json:"message" example:""`
+	} `json:"error"`
+}
+
+//BroadcastErrorCreateBroadcastRepoCreateServerInternalError
+type HTTPError5000501 struct {
+	ApiVersion string `json:"apiVersion" example:"1.0"`
+	Error      struct {
+		Code    int    `json:"code" example:"5000501"`
+		Message string `json:"message" example:""`
+	} `json:"error"`
+}
+
+//BroadcastErrorDeleteBroadcastRepoDeleteServerInternalError
+type HTTPError5000502 struct {
+	ApiVersion string `json:"apiVersion" example:"1.0"`
+	Error      struct {
+		Code    int    `json:"code" example:"5000502"`
+		Message string `json:"message" example:""`
+	} `json:"error"`
+}
